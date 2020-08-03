@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weather App</title>
+    <style type="text/css">
+    	#div1{
+    		border: solid 10px #d19119;
+    		margin: 100px;
+    		padding: 100px;
+    		
+    		background-image: linear-gradient(red, yellow);
+    	}
+    </style>
+</head>
+<body>
+	<div id = "div1">
+	<h2>Enter the City name</h2>	
+    <form action="/" method="GET">
+    <input id = 'input' name="q"></input>
+    <button  type="submit">Submit</button>
+    
+    </form>
+    <h2>{{weather}}</h2>
+    </div>
+
+
+
+</body>
+</html>
