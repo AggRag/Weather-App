@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 
 def index():
-    API_KEY = 'c774c2f576b26dd9d73420ceea0f4a17'  
+    API_KEY = 'API_KEY'  
     city = request.args.get('q')  
 
     
